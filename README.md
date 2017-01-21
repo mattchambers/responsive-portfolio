@@ -1,6 +1,10 @@
 # responsive-portfolio
-A simple and very responsive template portfolio HTML Template
+A simple and very responsive HTML template.
+This simple template can be easily used by photographers who would like to use a very simple layout to showcase their work.
 
-This template was created from scratch with the use of 'design.pdf' as inspiration.
+#LIVE PREVIEW https://mattchambers.github.io/responsive-portfolio/
 
-The template comes fully responsive for mobile, tablets and desktops/laptops.
+
+Template Inspiration https://github.com/mattchambers/responsive-portfolio/blob/master/design.pdf
+
+
