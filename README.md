@@ -5,6 +5,6 @@ This simple template can be easily used by photographers who would like to use a
 
 
 
-Template Inspiration https://github.com/mattchambers/responsive-portfolio/blob/master/design.pdf
+Template Inspiration <a href"https://github.com/mattchambers/responsive-portfolio/blob/master/design.pdf" target="_blank">LINK</a>
 
 #LIVE PREVIEW https://mattchambers.github.io/responsive-portfolio/
