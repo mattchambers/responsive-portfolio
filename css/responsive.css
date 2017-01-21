@@ -1,0 +1,85 @@
+
+@media screen and (max-width: 499px){
+	/*Screens at 499 and lower will follow these rules*/
+	*{
+		
+		
+	}
+	
+	.portfolio-title, .portfolio-subtitle, .social-media-header{
+		text-align: center;
+	}
+	
+	.logo{
+		width: 50px;
+		height: 50px;
+
+	}
+	.logo-container{
+		text-align: center;
+	}
+	
+
+	img.featured-img{
+		height: 150px;
+	}
+
+	.work-link{
+		margin-bottom: 30px;
+	}
+}
+
+
+@media screen and (min-width: 500px) and (max-width:604px){
+
+	.logo{
+		width: 50px;
+		height: 50px;
+	}
+
+	.header-content{
+		display: inline-block;
+		width: 70%;
+		float: right;
+
+	}
+
+	.logo-container{
+		
+		width: 30%;
+		display: inline-block;
+
+	}
+	
+
+}
+
+@media screen and (min-width: 604px) and (max-width:991px){
+
+	.logo{
+		width: 50px;
+		height: 50px;
+	}
+
+	.header-content{
+		display: inline-block;
+		width: 70%;
+		float: right;
+
+	}
+
+	.logo-container{
+		
+		width: 30%;
+		display: inline-block;
+
+	}
+
+	.work{
+		 
+		width: 50%;
+		float: left;
+	}
+	
+
+}
