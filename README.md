@@ -7,3 +7,6 @@ https://github.com/mattchambers/responsive-portfolio/blob/master/design.pdf
 
 #LIVE PREVIEW
 https://mattchambers.github.io/responsive-portfolio/
+
+##License 
+This Project is licensed under [The MIT License] (https://opensource.org/licenses/MIT)
