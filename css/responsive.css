@@ -1,29 +1,27 @@
 
 @media screen and (max-width: 499px){
 	/*Screens at 499 and lower will follow these rules*/
-	*{
-		
-		
-	}
 	
+	/*Align the title, subtitle, and social media icons in the 
+	center of the header container*/
 	.portfolio-title, .portfolio-subtitle, .social-media-header{
 		text-align: center;
 	}
 	
-	.logo{
-		width: 50px;
-		height: 50px;
-
-	}
+	/*Shifts the logo to the center of the page*/
 	.logo-container{
 		text-align: center;
 	}
 	
-
+	/*Increase the height of the featued image to make 
+	it more visible for the screen sizes affected by this
+	media query*/
 	img.featured-img{
 		height: 150px;
 	}
 
+	/*Add space between the link in the portfolio items
+	and the following portfolio item.*/
 	.work-link{
 		margin-bottom: 30px;
 	}
@@ -31,18 +29,22 @@
 
 
 @media screen and (min-width: 500px) and (max-width:604px){
+	/*Screens between 500px and 604px will be affected
+	by this media query*/
 
-	.logo{
-		width: 50px;
-		height: 50px;
-	}
 
+	/*The header content which contains the Title, SubTitle
+	Social media icons will be placed in the same row as the 
+	logo container holding 70% width of the row*/
 	.header-content{
 		display: inline-block;
 		width: 70%;
 		float: right;
 
 	}
+
+	/*the logo container is placed in the same row as the 
+	header content and will hold 30% width of the row*/
 
 	.logo-container{
 		
@@ -56,10 +58,12 @@
 
 @media screen and (min-width: 604px) and (max-width:991px){
 
-	.logo{
-		width: 50px;
-		height: 50px;
-	}
+	/*Screens between 604px and 991px will be affected by
+	this media query*/
+
+	/*The header content which contains the Title, SubTitle
+	Social media icons will be placed in the same row as the 
+	logo container holding 70% width of the row*/
 
 	.header-content{
 		display: inline-block;
@@ -68,12 +72,17 @@
 
 	}
 
+	/*the logo container is placed in the same row as the 
+	header content and will hold 30% width of the row*/
 	.logo-container{
 		
 		width: 30%;
 		display: inline-block;
 
 	}
+
+	/*This makes the portfolio items fill the space of the
+	page by going side by side filling 2 per row.*/
 
 	.work{
 		 
