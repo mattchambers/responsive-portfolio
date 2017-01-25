@@ -1,8 +1,13 @@
 
+    /*Make the featurd img have a max-width of the container
+    it is in.*/
     .featured-img{
 		max-width: 100%;
 		
 	}
+
+	/*Keep the logo to a fixed width and height of 50px
+	and it down by add 40px to the margin-top*/
 
 	.logo{
 		margin-top: 40px;
@@ -10,31 +15,45 @@
 		height: 50px;
 	}
 
+	/*Changed the default font for the whole document to
+	Google Font, 'Nunito'*/
+
 	*{
 		font-family: 'Nunito', sans-serif;
 		
 	}
 
+	/*Align the Title, Subtitle and Social Media icons to
+	the right of the header container*/
 	.portfolio-title, .portfolio-subtitle, .social-media-header{
 		text-align: right;
 	}
 
+	/*Changed the size of the Title to 4m and made have a 
+	very thin appearance by changing its font weight*/
 	.portfolio-title{
 		font-size: 4em;
 		font-weight: 100;
 	}
 
+	/*Moved the subtitle closer up the to title and increased
+	its size*/
 	.portfolio-subtitle{
 		margin-top: -15px;
 		font-size: 1.5em;
 	}
 
+	/*Made the hr element thicker and changed its default
+	color using the hex code*/
 	hr{
 		width: 100%;
 		height: 3px;
 		background-color: #7d97ad;
 	}
 
+	/*Changed the color of title 'Featured Work', as well 
+	as its size and its margin to increase the spacing
+	between the Featured Img container and itself.*/
 	.featured-work{
 		color: #7d97ad;
 		font-size: 2em;
@@ -42,29 +61,40 @@
 		
 	}
 
+	/*Ceneted all the elements of the portfolio items*/
 	.work-picture, .work-title, .work-link{
 		text-align: center;
 	}
 
+	/*Defined a set size for the images of the portfolio
+	pieces*/
 	.work-picture img{
 		width: 300px;
 		height: 150px;
 	}
-
+	/*Increased the title of the portfolio item*/
 	.work-title{
 		font-size: 2em;
 	}
 
+	/*This rule allows me to use the social media icons 
+	as a font instead of using images to lessen web requests*/
 	[class*="brandico-"]:before {
 		font-family: 'brandico', sans-serif;
 	}
 
+	/*Increased the size of the social media icons in
+	the header as well as pushing it closer to the subtitle
+	and the <hr> line*/
 	.social-media-header{
 		font-size: 2em;
 		margin-top: -10px;
 		margin-bottom: -10px;
 	}
 
+	/*Increased the size of the social media icons in the 
+	footer, adding space between it and the portfolio
+	container and centering it*/
 	.social-media-footer{
 		text-align: center;
 		font-size: 3em;
