@@ -1,0 +1,32 @@
+@mixin google-font($font){
+	$font: unquote($font);
+	@import url(https://fonts.googleapis.com/css?family=#{$font});
+}
+
+@mixin brandico{
+
+	[class*="brandico-"]:before {
+		font-family: 'brandico', sans-serif;
+	}
+}
+
+@mixin small-screens($size: 499px){
+	@media only screen and (max-width: $size){
+		@content;
+	}
+}
+
+@mixin medium-screens($min: 500px, $max: 604px){
+	@media screen and (min-width: $min) and (max-width: $max){
+		@content;
+	}
+}
+
+@mixin large-screens($min: 604px, $max: 991px){
+	@media screen and (min-width: $min) and (max-width: $max){
+		@content;
+	}
+}
+
+
+

@@ -1,103 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif; }
 
-    /*Make the featurd img have a max-width of the container
-    it is in.*/
-    .featured-img{
-		max-width: 100%;
-		
-	}
+body {
+  font-family: "Nunito", sans-serif;
+  color: #000; }
 
-	/*Keep the logo to a fixed width and height of 50px
-	and it down by add 40px to the margin-top*/
+header #logo-container {
+  margin-top: 40px; }
+  header #logo-container img {
+    width: 50px;
+    height: 50px; }
+  @media only screen and (max-width: 499px) {
+    header #logo-container {
+      text-align: center; } }
+  @media screen and (min-width: 500px) and (max-width: 604px) {
+    header #logo-container {
+      width: 30%;
+      display: inline-block; } }
+  @media screen and (min-width: 604px) and (max-width: 991px) {
+    header #logo-container {
+      width: 30%;
+      display: inline-block; } }
+header #header-container {
+  float: right; }
+  header #header-container h1 {
+    text-align: right;
+    font-size: 3.5em;
+    font-weight: 100; }
+    @media only screen and (max-width: 499px) {
+      header #header-container h1 {
+        text-align: center; } }
+  header #header-container h2 {
+    text-align: right;
+    margin-top: -15px;
+    font-size: 1.5em; }
+    @media only screen and (max-width: 499px) {
+      header #header-container h2 {
+        text-align: center; } }
+  header #header-container #social-head {
+    text-align: right;
+    font-size: 2em; }
+    @media only screen and (max-width: 499px) {
+      header #header-container #social-head {
+        text-align: center; } }
+  @media screen and (min-width: 500px) and (max-width: 604px) {
+    header #header-container {
+      width: 70%;
+      float: right;
+      display: inline-block; } }
+  @media screen and (min-width: 604px) and (max-width: 991px) {
+    header #header-container {
+      display: inline-block;
+      width: 70%;
+      float: right; } }
 
-	.logo{
-		margin-top: 40px;
-		width: 50px;
-		height: 50px;
-	}
+main hr {
+  width: 100%;
+  height: 3px;
+  background-color: #7D97AD; }
+main #featured-img {
+  height: 400px;
+  width: 100%;
+  padding: 0; }
+  @media only screen and (max-width: 499px) {
+    main #featured-img {
+      height: 150px; } }
+  main #featured-img img {
+    width: 100%;
+    height: 100%; }
+    @media only screen and (max-width: 499px) {
+      main #featured-img img {
+        height: 100%; } }
+main #heading {
+  color: #7D97AD;
+  font-size: 1.875em;
+  margin-top: 40px;
+  padding-left: 0px; }
+@media screen and (min-width: 604px) and (max-width: 991px) {
+  main #project-container .project {
+    width: 50%;
+    float: left; } }
+main #project-container .project .project-img {
+  width: 100%;
+  height: 150px; }
+  main #project-container .project .project-img img {
+    width: 100%;
+    height: 100%; }
+main #project-container .project .project-title {
+  text-align: center;
+  font-size: 1.75em; }
+main #project-container .project .project-link {
+  text-align: center; }
 
-	/*Changed the default font for the whole document to
-	Google Font, 'Nunito'*/
+footer #social-footer {
+  float: right;
+  font-size: 1.5em; }
 
-	*{
-		font-family: 'Nunito', sans-serif;
-		
-	}
-
-	/*Align the Title, Subtitle and Social Media icons to
-	the right of the header container*/
-	.portfolio-title, .portfolio-subtitle, .social-media-header{
-		text-align: right;
-	}
-
-	/*Changed the size of the Title to 4m and made have a 
-	very thin appearance by changing its font weight*/
-	.portfolio-title{
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	/*Moved the subtitle closer up the to title and increased
-	its size*/
-	.portfolio-subtitle{
-		margin-top: -15px;
-		font-size: 1.5em;
-	}
-
-	/*Made the hr element thicker and changed its default
-	color using the hex code*/
-	hr{
-		width: 100%;
-		height: 3px;
-		background-color: #7d97ad;
-	}
-
-	/*Changed the color of title 'Featured Work', as well 
-	as its size and its margin to increase the spacing
-	between the Featured Img container and itself.*/
-	.featured-work{
-		color: #7d97ad;
-		font-size: 2em;
-		margin-top: 40px;
-		
-	}
-
-	/*Ceneted all the elements of the portfolio items*/
-	.work-picture, .work-title, .work-link{
-		text-align: center;
-	}
-
-	/*Defined a set size for the images of the portfolio
-	pieces*/
-	.work-picture img{
-		width: 300px;
-		height: 150px;
-	}
-	/*Increased the title of the portfolio item*/
-	.work-title{
-		font-size: 2em;
-	}
-
-	/*This rule allows me to use the social media icons 
-	as a font instead of using images to lessen web requests*/
-	[class*="brandico-"]:before {
-		font-family: 'brandico', sans-serif;
-	}
-
-	/*Increased the size of the social media icons in
-	the header as well as pushing it closer to the subtitle
-	and the <hr> line*/
-	.social-media-header{
-		font-size: 2em;
-		margin-top: -10px;
-		margin-bottom: -10px;
-	}
-
-	/*Increased the size of the social media icons in the 
-	footer, adding space between it and the portfolio
-	container and centering it*/
-	.social-media-footer{
-		text-align: center;
-		font-size: 3em;
-		margin-top: 20px;
-	}
-
+/*# sourceMappingURL=main.css.map */
